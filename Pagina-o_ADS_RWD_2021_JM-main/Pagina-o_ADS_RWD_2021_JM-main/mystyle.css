@@ -1,0 +1,35 @@
+body{
+    background-color: #577de6;
+}
+h2{
+    text-align: center;
+    color: #db7252;
+    font-size: 30px;
+  }
+
+h3{ 
+    text-align: center;
+    color:#f37f55
+  }
+  
+.center {
+   text-align: center;
+}   
+
+.pagination {
+   display: inline-block;
+
+}   
+.pagination a{
+   background-color: #def55e;
+   color:#0000ff;
+   Float: left;
+   Padding: 8px 16px;
+   text-decoration: none;
+   Border: 1px Solid #ddd;
+}   
+
+.pagination a:hover {
+   background-color: #008080;
+
+}
