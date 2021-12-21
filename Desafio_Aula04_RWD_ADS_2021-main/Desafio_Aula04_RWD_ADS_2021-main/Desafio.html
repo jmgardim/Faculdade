@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mudar a cor do Background da página</title>
+    <style type="text/css">
+     
+    
+        .fundo{
+        background-color:#FFFFFF;
+        }
+        .fundo1{
+        background-color:#0000FF;
+        }
+       
+        </style>
+        <script language="javascript" type="text/javascript">
+       
+        function trocar(){
+        var obj=document.getElementById('body');
+        if(obj.className=='fundo1'){
+            obj.className='fundo';
+        }else{
+            obj.className='fundo1';
+         }
+        }
+        </script>
+        </head>
+
+        <body id="body" class="fundo" text-align="center">
+        <a href="#" onclick="trocar();">Azul</a><br/>
+        </body>
+        </html>
+</head>
+<body>
+</body>
+</html>
